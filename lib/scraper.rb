@@ -70,8 +70,6 @@ def self.scrape_profile_page(profile_url)
   student[:profile_quote] = doc.css(".profile-quote").text
   student[:bio] = doc.css("div.description-holder p").text
   student
-
-
   end
 
 end

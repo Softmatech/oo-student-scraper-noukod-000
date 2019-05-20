@@ -21,7 +21,7 @@ class Scraper
 
         scrape_students << hash
       end
-      students
+      scrape_students
   end
 
   def self.scrape_profile_page(profile_url)

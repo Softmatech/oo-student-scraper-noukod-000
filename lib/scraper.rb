@@ -43,7 +43,7 @@ end
   student[:bio] = doc.css("div.descriptioin-holder p").text
   student
 
-  binding.pry
+  # binding.pry
 end
 
 end
